@@ -1,0 +1,13 @@
+collections:
+  TraktTEST  Recommendations:
+    trakt_recommendations: 40
+    collection_order: custom
+    sync_mode: sync
+  Post-apocolyptic TV Shows:
+    imdb_list:
+      url: https://www.imdb.com/list/ls070719608/
+    collection_order: critic_rating.desc
+    sync_mode: sync
+  Best HBO-Series:
+    imdb_list:
+      url: https://www.imdb.com/list/ls022348691/

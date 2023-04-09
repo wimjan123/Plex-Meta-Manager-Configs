@@ -1,0 +1,54 @@
+templates:
+  Actor:
+    actor: tmdb
+    tmdb_person: <<person>>
+    tmdb_actor_details: <<person>>
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
+collections:
+  Bill Murray:
+    template: {name:  Actor, person: 1532}
+  Best of the 1980s:
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1980
+      primary_release_date.lte: 12/31/1989
+      with_original_language: en
+      sort_by: popularity.desc
+      limit: 100
+    summary: A collection of the Top Content of the 1980s
+  Trakt Recommendations:
+    trakt_recommendations: 40
+    collection_order: custom
+    sync_mode: sync
+  Vulture’s 101 Best Movie Endings:
+    letterboxd_list: https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/
+  Cold War Movies:
+    imdb_list:
+      - url: https://www.imdb.com/list/ls013126168/
+      - url: https://www.imdb.com/list/ls022631272/
+    collection_order: critic_rating.desc
+    sync_mode: sync
+  Best Western Movies:
+    imdb_list:
+      - url: https://www.imdb.com/search/title/?genres=western&title_type=feature&num_votes=10000,&sort=user_rating,desc
+        limit: 150
+    collection_order: critic_rating.desc
+  Top 250 Narratives:
+    letterboxd_list: https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/
+    collection_order: custom
+  Best Russian Movies:
+    letterboxd_list: https://letterboxd.com/follow_freeman/list/the-best-russian-movies-of-all-time-by-list/
+    collection_order: custom
+  Ultrawide Movies:
+    letterboxd_list: https://letterboxd.com/lebowitz/list/ultrawide-movies/
+    collection_order: custom
+  Black Comedy Crime:
+    letterboxd_list:
+      - url: https://letterboxd.com/gbro77/list/black-comedy-crime-thrillers/
+      - url: https://letterboxd.com/nowhereman_xx/list/acid-black-comedy-with-crime-or-guns/
+      - url: https://letterboxd.com/drummarts/list/movies-that-are-similar-to-fargo/
+    collection_order: custom
+
+    
