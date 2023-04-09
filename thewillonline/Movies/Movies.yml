@@ -24,18 +24,18 @@ collections:
     sync_mode: sync
   Vulture’s 101 Best Movie Endings:
     letterboxd_list: https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/
-  Cold War Movies:
+  TEST Cold War Movies:
     imdb_list:
       - url: https://www.imdb.com/list/ls013126168/
       - url: https://www.imdb.com/list/ls022631272/
     collection_order: critic_rating.desc
     sync_mode: sync
-  Best Western Movies:
+  TEST Best Western Movies:
     imdb_list:
       - url: https://www.imdb.com/search/title/?genres=western&title_type=feature&num_votes=10000,&sort=user_rating,desc
         limit: 150
     collection_order: critic_rating.desc
-  Top 250 Narratives:
+  TEST Top 250 Narratives:
     letterboxd_list: https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/
     collection_order: custom
   Best Russian Movies:
