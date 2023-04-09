@@ -8,6 +8,12 @@ collections:
       url: https://www.imdb.com/list/ls070719608/
     collection_order: critic_rating.desc
     sync_mode: sync
-  Best HBO-Series:
+  Best HBO Shows:
     imdb_list:
       url: https://www.imdb.com/list/ls022348691/
+  All HBO Shows:
+    mdblist_list: 
+      url: https://mdblist.com/lists/garycrawfordgc/hbo-shows
+    collection_order: custom
+    sync_mode: sync
+  

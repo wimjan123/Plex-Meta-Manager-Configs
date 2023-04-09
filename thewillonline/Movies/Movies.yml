@@ -24,18 +24,18 @@ collections:
     sync_mode: sync
   Vulture’s 101 Best Movie Endings:
     letterboxd_list: https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/
-  TEST Cold War Movies:
+  Cold War Movies:
     imdb_list:
       - url: https://www.imdb.com/list/ls013126168/
       - url: https://www.imdb.com/list/ls022631272/
     collection_order: critic_rating.desc
     sync_mode: sync
-  TEST Best Western Movies:
+  Best Western Movies:
     imdb_list:
       - url: https://www.imdb.com/search/title/?genres=western&title_type=feature&num_votes=10000,&sort=user_rating,desc
         limit: 150
     collection_order: critic_rating.desc
-  TEST Top 250 Narratives:
+  Top 250 Narratives:
     letterboxd_list: https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/
     collection_order: custom
   Best Russian Movies:
@@ -50,5 +50,15 @@ collections:
       - url: https://letterboxd.com/nowhereman_xx/list/acid-black-comedy-with-crime-or-guns/
       - url: https://letterboxd.com/drummarts/list/movies-that-are-similar-to-fargo/
     collection_order: custom
+  AI Movies:
+    imdb_list:
+      - url: https://www.imdb.com/list/ls045904068/
+    collection_order: critic_rating.desc
+    sync_mode: sync
+  Best War Movies:
+    imdb_list:
+      - url: https://www.imdb.com/list/ls055731784/
+    collection_order: custom
+    sync_mode: sync
 
     
