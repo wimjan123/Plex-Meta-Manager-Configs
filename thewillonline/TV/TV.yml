@@ -1,5 +1,5 @@
 collections:
-  Trakt  Recommendations:
+  Trakt Recommendations:
     trakt_recommendations: 40
     collection_order: custom
     sync_mode: sync
